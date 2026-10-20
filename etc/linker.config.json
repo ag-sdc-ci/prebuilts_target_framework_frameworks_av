@@ -1,0 +1,9 @@
+{
+	"provideLibs": [	
+		    "libdummy_ext_frameworks_av_framework-x86_64-v2.so",
+		    "libdummy_ext_frameworks_av_framework.so",
+		    "libdummy_headers_ext_frameworks_av_framework-x86_64-v2.so",
+		    "libdummy_headers_ext_frameworks_av_framework.so"
+	],
+	"visible": true
+}

@@ -1,0 +1,5 @@
+upstream_repo: frameworks/av
+framework_extractive: true
+package: org.blisslabs.ag.ext.frameworks.av.framework
+source: https://android.googlesource.com/platform/frameworks/av
+build_type: extractive_apex
