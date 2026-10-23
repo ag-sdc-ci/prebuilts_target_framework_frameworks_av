@@ -15,3 +15,101 @@ license {
         "NOTICE",
     ],
 }
+
+aidl_interface {
+    name: "av-types-aidl",
+    unstable: true,
+    host_supported: true,
+    vendor_available: true,
+    double_loadable: true,
+    local_include_dir: "aidl",
+    srcs: [
+        "aidl/android/media/InterpolatorConfig.aidl",
+        "aidl/android/media/InterpolatorType.aidl",
+        "aidl/android/media/MicrophoneInfoFw.aidl",
+        "aidl/android/media/VolumeShaperConfiguration.aidl",
+        "aidl/android/media/VolumeShaperConfigurationOptionFlag.aidl",
+        "aidl/android/media/VolumeShaperConfigurationType.aidl",
+        "aidl/android/media/VolumeShaperOperation.aidl",
+        "aidl/android/media/VolumeShaperOperationFlag.aidl",
+        "aidl/android/media/VolumeShaperState.aidl",
+    ],
+    defaults: [
+        "latest_android_media_audio_common_types_import_interface",
+    ],
+    backend: {
+        cpp: {
+            min_sdk_version: "29",
+            apex_available: [
+                "//apex_available:platform",
+                "com.android.btservices",
+                "com.android.media",
+                "com.android.media.swcodec",
+            ],
+        },
+        java: {
+            sdk_version: "module_current",
+        },
+    },
+}
+
+cc_library_headers {
+    name: "av-headers",
+    export_include_dirs: ["include"],
+    static_libs: [
+        "av-types-aidl-cpp",
+    ],
+    export_static_lib_headers: [
+        "av-types-aidl-cpp",
+    ],
+    header_libs: [
+        "libaudio_aidl_conversion_common_util_cpp",
+    ],
+    export_header_lib_headers: [
+        "libaudio_aidl_conversion_common_util_cpp",
+    ],
+    host_supported: true,
+    vendor_available: true,
+    double_loadable: true,
+    min_sdk_version: "29",
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.btservices",
+        "com.android.media",
+        "com.android.media.swcodec",
+    ],
+    target: {
+        darwin: {
+            enabled: false,
+        },
+    },
+}
+
+aidl_interface {
+    name: "av-audio-types-aidl",
+    host_supported: true,
+    vendor_available: true,
+    double_loadable: true,
+    local_include_dir: "aidl",
+    srcs: [
+        "aidl/android/media/audio/IHalAdapterVendorExtension.aidl",
+    ],
+    defaults: [
+        "latest_android_hardware_audio_core_import_interface",
+    ],
+    backend: {
+        cpp: {
+            enabled: false,
+        },
+        java: {
+            sdk_version: "module_current",
+        },
+    },
+    versions_with_info: [
+        {
+            version: "1",
+            imports: ["android.hardware.audio.core-V2"],
+        },
+    ],
+    frozen: true,
+}

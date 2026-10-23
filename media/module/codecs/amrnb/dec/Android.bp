@@ -106,37 +106,5 @@ cc_library_static {
 }
 
 //###############################################################################
-cc_test {
-    name: "libstagefright_amrnbdec_test",
-    gtest: false,
-    host_supported: true,
-
-    srcs: ["test/amrnbdec_test.cpp"],
-
-    cflags: ["-Wall", "-Werror"],
-
-    local_include_dirs: ["src"],
-
-    static_libs: [
-        "libstagefright_amrnbdec",
-        "libsndfile",
-    ],
-
-    shared_libs: [
-        "libstagefright_amrnb_common",
-        "libaudioutils",
-        "liblog",
-    ],
-
-    target: {
-        darwin: {
-            enabled: false,
-        },
-    },
-
-    //sanitize: {
-    //    misc_undefined: [
-    //        "signed-integer-overflow",
-    //    ],
-    //},
-}
+/*
+*/

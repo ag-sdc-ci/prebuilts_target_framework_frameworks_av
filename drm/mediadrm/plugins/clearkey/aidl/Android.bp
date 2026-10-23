@@ -64,7 +64,7 @@ cc_defaults {
 
     cflags: ["-Wall", "-Werror", "-Wthread-safety"],
 
-    include_dirs: ["frameworks/av/include"],
+    include_dirs: ["prebuilts/target/framework/frameworks/av/include"],
 
     local_include_dirs: ["include"],
 
@@ -128,7 +128,7 @@ cc_defaults {
 
     cflags: ["-Wall", "-Werror", "-Wthread-safety"],
 
-    include_dirs: ["frameworks/av/include"],
+    include_dirs: ["prebuilts/target/framework/frameworks/av/include"],
 
     shared_libs: [
         "libbase",

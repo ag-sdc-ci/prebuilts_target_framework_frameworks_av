@@ -266,8 +266,8 @@ cc_library_static {
     ],
 
     include_dirs: [
-        "frameworks/av/camera/include",
-        "frameworks/av/camera/include/camera",
+        "prebuilts/target/framework/frameworks/av/camera/include",
+        "prebuilts/target/framework/frameworks/av/camera/include/camera",
     ],
 
     export_include_dirs: ["."],

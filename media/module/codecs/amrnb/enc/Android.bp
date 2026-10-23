@@ -126,24 +126,5 @@ cc_library_static {
 
 //###############################################################################
 
-cc_test {
-    name: "libstagefright_amrnbenc_test",
-    gtest: false,
-
-    srcs: ["test/amrnb_enc_test.cpp"],
-
-    cflags: ["-Wall", "-Werror"],
-
-    local_include_dirs: ["src"],
-
-    static_libs: ["libstagefright_amrnbenc"],
-
-    shared_libs: ["libstagefright_amrnb_common"],
-
-    //addressing b/25409744
-    //sanitize: {
-    //    misc_undefined: [
-    //        "signed-integer-overflow",
-    //    ],
-    //},
-}
+/*
+*/

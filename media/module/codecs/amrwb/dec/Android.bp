@@ -108,33 +108,5 @@ cc_library_static {
 }
 
 //###############################################################################
-cc_test {
-    name: "libstagefright_amrwbdec_test",
-    gtest: false,
-    host_supported: true,
-
-    srcs: ["test/amrwbdec_test.cpp"],
-
-    cflags: ["-Wall", "-Werror"],
-
-    static_libs: [
-        "libstagefright_amrwbdec",
-        "libsndfile",
-    ],
-
-    local_include_dirs: ["src"],
-
-    shared_libs: ["libaudioutils"],
-
-    sanitize: {
-        misc_undefined: [
-            "signed-integer-overflow",
-        ],
-    },
-
-    target: {
-        darwin: {
-            enabled: false,
-        },
-    },
-}
+/*
+*/

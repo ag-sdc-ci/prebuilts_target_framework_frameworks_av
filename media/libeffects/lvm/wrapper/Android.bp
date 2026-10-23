@@ -102,6 +102,7 @@ cc_library {
     },
 }
 
+/*
 cc_library_shared {
     name: "libbundleaidl",
     srcs: [
@@ -133,7 +134,10 @@ cc_library_shared {
         "//hardware/interfaces/audio/aidl/default:__subpackages__",
     ],
 }
+*/
 
+
+/*
 cc_library_shared {
     name: "libreverbaidl",
     srcs: [
@@ -164,3 +168,5 @@ cc_library_shared {
         "//hardware/interfaces/audio/aidl/default:__subpackages__",
     ],
 }
+*/
+

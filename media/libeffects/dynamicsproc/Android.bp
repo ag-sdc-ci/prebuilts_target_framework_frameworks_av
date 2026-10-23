@@ -76,6 +76,7 @@ cc_library_shared {
     ],
 }
 
+/*
 cc_library_shared {
     name: "libdynamicsprocessingaidl",
 
@@ -98,3 +99,5 @@ cc_library_shared {
         "//hardware/interfaces/audio/aidl/default:__subpackages__",
     ],
 }
+*/
+

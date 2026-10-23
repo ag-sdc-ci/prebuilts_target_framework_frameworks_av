@@ -97,7 +97,7 @@ cc_library {
         export_aidl_headers: true,
         local_include_dirs: ["aidl"],
         include_dirs: [
-            "frameworks/av/aidl",
+            "prebuilts/target/framework/frameworks/av/aidl",
         ],
     },
 
@@ -160,7 +160,7 @@ cc_library {
     ],
 
     include_dirs: [
-        "frameworks/av/media/libnbaio/include_mono/",
+        "prebuilts/target/framework/frameworks/av/media/libnbaio/include_mono/",
     ],
     local_include_dirs: [
         "include/media",

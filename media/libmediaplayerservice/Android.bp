@@ -124,7 +124,7 @@ cc_library {
     ],
 
     include_dirs: [
-        "frameworks/av/media/libstagefright/wifi-display",
+        "prebuilts/target/framework/frameworks/av/media/libstagefright/wifi-display",
     ],
 
     export_include_dirs: [

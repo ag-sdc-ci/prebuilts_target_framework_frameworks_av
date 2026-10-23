@@ -34,7 +34,7 @@ cc_library_static {
 
     cflags: ["-Wall", "-Werror"],
 
-    include_dirs: ["frameworks/av/include"],
+    include_dirs: ["prebuilts/target/framework/frameworks/av/include"],
 
     shared_libs: ["libutils"],
 
@@ -76,7 +76,7 @@ cc_library_static {
 
     cflags: ["-Wall", "-Werror"],
 
-    include_dirs: ["frameworks/av/include"],
+    include_dirs: ["prebuilts/target/framework/frameworks/av/include"],
 
     shared_libs: [
         "libutils",
@@ -127,7 +127,7 @@ cc_library_static {
 
     cflags: ["-Wall", "-Werror"],
 
-    include_dirs: ["frameworks/av/include"],
+    include_dirs: ["prebuilts/target/framework/frameworks/av/include"],
 
     shared_libs: [
         "libutils",

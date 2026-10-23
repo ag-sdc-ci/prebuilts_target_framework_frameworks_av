@@ -34,7 +34,7 @@ cc_library_shared {
         "-Werror",
     ],
 
-    include_dirs: ["frameworks/av/media/libeffects/factory"],
+    include_dirs: ["prebuilts/target/framework/frameworks/av/media/libeffects/factory"],
 
     header_libs: ["libaudioeffects"],
     shared_libs: [

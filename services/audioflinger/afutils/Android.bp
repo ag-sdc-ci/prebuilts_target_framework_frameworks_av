@@ -68,6 +68,6 @@ cc_library {
     ],
 
     include_dirs: [
-        "frameworks/av/services/audioflinger",  // for configuration
+        "prebuilts/target/framework/frameworks/av/services/audioflinger",  // for configuration
     ],
 }

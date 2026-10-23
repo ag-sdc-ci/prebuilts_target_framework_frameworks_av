@@ -45,6 +45,7 @@ cc_library_shared {
     header_libs: ["libaudioeffects"],
 }
 
+/*
 cc_library_shared {
     name: "libloudnessenhanceraidl",
     srcs: [
@@ -72,3 +73,4 @@ cc_library_shared {
         "//hardware/interfaces/audio/aidl/default:__subpackages__",
     ],
 }
+*/

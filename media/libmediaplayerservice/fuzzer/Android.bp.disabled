@@ -147,7 +147,7 @@ cc_fuzz {
         "libstagefright_httplive",
         "libmediaextractorservice",
     ],
-    include_dirs: ["frameworks/av/services/mediaextractor"],
+    include_dirs: ["prebuilts/target/framework/frameworks/av/services/mediaextractor"],
 }
 
 cc_fuzz {
@@ -214,5 +214,5 @@ cc_fuzz {
     cflags: [
         "-DFUZZ_MODE_MEDIA_PLAYER_SERVICE",
     ],
-    include_dirs: ["frameworks/av/media/libmediaplayerservice/"],
+    include_dirs: ["prebuilts/target/framework/frameworks/av/media/libmediaplayerservice/"],
 }

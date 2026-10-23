@@ -22,14 +22,6 @@ cc_library_shared {
         "-Werror",
     ],
 
-    required: [
-        "libaudiohal@5.0",
-        "libaudiohal@6.0",
-        "libaudiohal@7.0",
-        "libaudiohal@7.1",
-        "libaudiohal@aidl",
-    ],
-
     shared_libs: [
         "audioclient-types-aidl-cpp",
         "libbinder_ndk",

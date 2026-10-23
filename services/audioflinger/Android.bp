@@ -209,8 +209,8 @@ cc_library {
     ],
 
     include_dirs: [
-        "frameworks/av/services/audiopolicy",
-        "frameworks/av/services/medialog",
+        "prebuilts/target/framework/frameworks/av/services/audiopolicy",
+        "prebuilts/target/framework/frameworks/av/services/medialog",
     ],
 
     static_libs: [

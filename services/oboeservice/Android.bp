@@ -153,8 +153,8 @@ cc_library_static {
     ],
 
     include_dirs: [
-        "frameworks/av/media/libnbaio/include_mono",
-        "frameworks/av/media/libnbaio/include",
+        "prebuilts/target/framework/frameworks/av/media/libnbaio/include_mono",
+        "prebuilts/target/framework/frameworks/av/media/libnbaio/include",
     ],
 
     tidy: true,

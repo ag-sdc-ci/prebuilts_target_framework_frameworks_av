@@ -14,7 +14,7 @@ cc_library {
         "libcodec2_soft_sanitize_all-defaults",
     ],
 
-    // coordinated with frameworks/av/media/codec2/components/aom/Android.bp
+    // coordinated with prebuilts/target/framework/frameworks/av/media/codec2/components/aom/Android.bp
     // so only 1 of them has the official c2.android.av1.decoder name
     cflags: [
         "-DCODECNAME=\"c2.android.av1.decoder\"",

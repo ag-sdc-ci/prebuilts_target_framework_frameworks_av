@@ -58,7 +58,7 @@ cc_fuzz {
         "libaaudioservice",
     ],
     include_dirs: [
-        "frameworks/av/services/oboeservice",
+        "prebuilts/target/framework/frameworks/av/services/oboeservice",
     ],
     header_libs: [
         "libaudiohal_headers",

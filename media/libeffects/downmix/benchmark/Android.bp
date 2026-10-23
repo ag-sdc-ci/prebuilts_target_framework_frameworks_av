@@ -16,7 +16,7 @@ cc_benchmark {
     host_supported: false,
     vendor: true,
     include_dirs: [
-        "frameworks/av/media/libeffects/downmix",
+        "prebuilts/target/framework/frameworks/av/media/libeffects/downmix",
     ],
     header_libs: [
         "libaudioeffects",

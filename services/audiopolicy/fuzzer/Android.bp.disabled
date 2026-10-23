@@ -32,7 +32,7 @@ cc_fuzz {
         "audiopolicy_fuzzer.cpp",
     ],
     include_dirs: [
-        "frameworks/av/services/audiopolicy",
+        "prebuilts/target/framework/frameworks/av/services/audiopolicy",
     ],
     shared_libs: [
         "android.hardware.audio.common-util",

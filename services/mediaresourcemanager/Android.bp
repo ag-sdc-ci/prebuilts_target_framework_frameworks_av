@@ -110,7 +110,7 @@ cc_library {
         "libplatformprotos",
     ],
 
-    include_dirs: ["frameworks/av/include"],
+    include_dirs: ["prebuilts/target/framework/frameworks/av/include"],
 
     cflags: [
         "-Werror",

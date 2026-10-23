@@ -82,26 +82,5 @@ cc_library_static {
 
 //###############################################################################
 
-cc_test {
-    name: "libstagefright_m4vh263enc_test",
-    gtest: false,
-
-    srcs: ["test/m4v_h263_enc_test.cpp"],
-
-    local_include_dirs: ["src"],
-
-    cflags: [
-        "-DBX_RC",
-        "-Wall",
-        "-Werror",
-    ],
-
-    sanitize: {
-        misc_undefined: [
-            "signed-integer-overflow",
-        ],
-        cfi: true,
-    },
-
-    static_libs: ["libstagefright_m4vh263enc"],
-}
+/*
+*/

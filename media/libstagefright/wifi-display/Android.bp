@@ -15,10 +15,10 @@ cc_library_shared {
     ],
 
     include_dirs: [
-        "frameworks/av/media/libstagefright",
+        "prebuilts/target/framework/frameworks/av/media/libstagefright",
         "frameworks/native/include/media/openmax",
         "frameworks/native/include/media/hardware",
-        "frameworks/av/media/module/mpeg2ts",
+        "prebuilts/target/framework/frameworks/av/media/module/mpeg2ts",
     ],
 
     shared_libs: [

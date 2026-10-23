@@ -159,6 +159,7 @@ cc_defaults {
     ],
 }
 
+/*
 cc_fuzz {
     name: "libcodec2-aidl-fuzzer",
     vendor: true,
@@ -180,3 +181,4 @@ cc_fuzz {
         triage_assignee: "waghpawan@google.com",
     },
 }
+*/

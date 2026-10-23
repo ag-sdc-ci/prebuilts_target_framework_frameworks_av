@@ -28,7 +28,7 @@ cc_fuzz {
         "libutils",
     ],
     include_dirs: [
-        "frameworks/av/services/medialog",
+        "prebuilts/target/framework/frameworks/av/services/medialog",
     ],
     cflags: [
         "-Werror",

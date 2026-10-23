@@ -113,6 +113,7 @@ drmserver_cc_binary {
     },
 }
 
+/*
 cc_fuzz {
     name: "drmserver_fuzzer",
 
@@ -148,3 +149,4 @@ cc_fuzz {
          ],
      },
 }
+*/

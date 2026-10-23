@@ -42,7 +42,7 @@ cc_library_shared {
     header_libs: ["media_plugin_headers"],
 
     include_dirs: [
-        "frameworks/av/include",
+        "prebuilts/target/framework/frameworks/av/include",
         "frameworks/native/include/media",
     ],
 }

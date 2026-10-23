@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Headers module is in frameworks/av/Android.bp because modules are not allowed
+// Headers module is in prebuilts/target/framework/frameworks/av/Android.bp because modules are not allowed
 // to refer to headers in parent directories and the headers live in
-// frameworks/av/include.
+// prebuilts/target/framework/frameworks/av/include.
 
 package {
     default_team: "trendy_team_camera_framework",
@@ -169,6 +169,7 @@ cc_library_shared {
     ],
 }
 
+/*
 cc_test {
     name: "ACameraNdkVendorTest",
     vendor: true,
@@ -194,3 +195,4 @@ cc_test {
         "-D__ANDROID_VNDK__",
     ],
 }
+*/

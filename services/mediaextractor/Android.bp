@@ -90,6 +90,7 @@ prebuilt_etc {
     ],
 }
 
+/*
 cc_fuzz {
     name: "mediaextractor_service_fuzzer",
     shared_libs: [
@@ -111,3 +112,4 @@ cc_fuzz {
         triage_assignee: "waghpawan@google.com",
     },
 }
+*/

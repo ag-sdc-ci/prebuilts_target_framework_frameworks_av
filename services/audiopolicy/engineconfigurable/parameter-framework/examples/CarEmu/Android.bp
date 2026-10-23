@@ -18,9 +18,9 @@
 
 soong_namespace {
     imports: [
-        "frameworks/av/services/audiopolicy/engineconfigurable/config/example/caremu",
-        "frameworks/av/services/audiopolicy/engineconfigurable/parameter-framework/examples/Car",
-        "frameworks/av/services/audiopolicy/config",
+        "prebuilts/target/framework/frameworks/av/services/audiopolicy/engineconfigurable/config/example/caremu",
+        "prebuilts/target/framework/frameworks/av/services/audiopolicy/engineconfigurable/parameter-framework/examples/Car",
+        "prebuilts/target/framework/frameworks/av/services/audiopolicy/config",
     ],
 }
 

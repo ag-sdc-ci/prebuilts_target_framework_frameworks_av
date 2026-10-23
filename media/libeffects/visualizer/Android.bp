@@ -51,6 +51,7 @@ cc_library_shared {
     ],
 }
 
+/*
 cc_library_shared {
     name: "libvisualizeraidl",
     srcs: [
@@ -73,3 +74,4 @@ cc_library_shared {
         "//hardware/interfaces/audio/aidl/default:__subpackages__",
     ],
 }
+*/
