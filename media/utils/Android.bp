@@ -130,7 +130,7 @@ cc_library {
             ],
             include_dirs: [
                 // For DEBUGGER_SIGNAL
-                "system/core/debuggerd/include",
+                "prebuilts/target/system/core/src/include/debuggerd",
             ],
             header_libs: [
                 "bionic_libc_platform_headers",
