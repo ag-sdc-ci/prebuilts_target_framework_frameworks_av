@@ -234,6 +234,11 @@ cc_library {
 cc_library_static {
     name: "libcameraservice_device_independent",
     host_supported: true,
+    target: {
+        host: {
+            compile_multilib: "64",
+        },
+    },
 
     // Camera service source
 
